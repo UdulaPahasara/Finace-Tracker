@@ -1,0 +1,66 @@
+/* OracleReports.css */
+.oracle-report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background: #fff;
+  box-shadow: 0 2px 12px 4px #f5f6fa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.oracle-report-table th, .oracle-report-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: left;
+}
+
+.oracle-report-table th {
+  background: #4f6fad;
+  color: #fff;
+  font-size: 1.09em;
+  font-weight: 600;
+  border-bottom: 2px solid #334e7b;
+}
+
+.oracle-report-table tr:last-child td {
+  border-bottom: none;
+}
+
+.oracle-report-table tbody tr:hover {
+  background: #f9fbfd;
+}
+
+.oracle-report-title {
+  margin-top: 36px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #334e7b;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  text-align: left;
+}
+.month-select-label {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.month-select-input {
+  padding: 7px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #f8fafc;
+  font-size: 1rem;
+  color: #363636;
+  outline: none;
+  transition: border 0.2s;
+}
+.month-select-input:focus {
+  border: 1.5px solid #6366f1;
+  background: #fff;
+}
